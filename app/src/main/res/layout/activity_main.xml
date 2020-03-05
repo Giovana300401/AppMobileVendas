@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+    <TextView android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="COMPRE AQUI"
+        android:textSize="40sp"
+        android:gravity="center"
+        android:textColor="@android:color/black"
+        android:layout_margin="40sp"
+        android:id="@+id/txtTitulo"
+        android:textStyle="bold"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Mercado Livre"
+        android:gravity="center"
+        android:layout_marginTop="10sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtMercadoLivre"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Buscapé"
+        android:gravity="center"
+        android:layout_marginTop="70sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtBuscape"
+        android:clickable="true"
+        />
+
+        <TextView
+            android:id="@+id/txtEbay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70sp"
+            android:gravity="center"
+            android:text="eBay"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"
+            android:clickable="true"
+            />
+
+        <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Webmotors"
+        android:gravity="center"
+        android:layout_marginTop="70sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtWebmotors"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Magalu"
+        android:gravity="center"
+        android:layout_marginTop="80sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtMagalu"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Netshoes"
+        android:gravity="center"
+        android:layout_marginTop="90sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtNetshoes"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Americanas"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtAmericanas"
+        android:clickable="true"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Submarino"
+        android:gravity="center"
+        android:layout_marginTop="100sp"
+        android:layout_marginBottom="40sp"
+        android:textColor="@android:color/black"
+        android:textSize="25sp"
+        android:id="@+id/txtSubmarino"
+        android:clickable="true"
+        />
+
+        <Button android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sobre"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20sp"/>
+
+    </LinearLayout>
+</ScrollView>
+
